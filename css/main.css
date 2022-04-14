@@ -1,9 +1,22 @@
+html {
+	font-size: 16px;
+}
+
 body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-size: 1em;
 }
 
 .container{
-	max-width: 1200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 90%;
 	margin: 0 auto;
 }
 
@@ -15,50 +28,53 @@ h3 {
 	font-weight: 700;
 }
 h1 {
-	font-size: 30px;
+	font-size: 1.875em;
 }
 h2 {
-	font-size: 18px;
+	font-size: 1.125;
 }
 h3 {
-	font-size: 12px;
+	font-size: 0.875em;
 }
 
 p {
-	font-size: 14px;
-	line-height: 21px;
-    padding: 0 30px;
+	font-size: 0.875em;
+	line-height: 1.3125em;
+    padding: 0 1.875em;
 }
 
 /*The widths are in a percentage!*/
 header {
-	height: 110px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
 }
 
 header h1 {
-	float: left;
 	margin: 0;
-	padding: 38px 0;
+	padding: 2.375em 0;
 }
 header h1 span {
 	color: #77a466;
 }
 
 header nav {
-	float: right;
-	padding: 46px 0;
+	padding: 2.875em 0;
 }
 header nav ul {
+	display: flex;
+	flex-direction: column;
 	margin: 0;
 	padding: 0;
 }
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 14px;
-	padding: 0 10px;
+	font-size: 0.875em;
+	padding: 0 0.625em;
 	display: inline;
 }
 header nav ul li a{
@@ -69,13 +85,15 @@ header nav ul li a{
 /*The widths are in a percentage!*/
 .top-section,
 .bottom-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	margin: 0 auto;
-	clear: both;
 }
 
 .main-image {
 	height: auto;
-	float: left;
 }
 .main-image img {
 	width: 100%;
@@ -84,17 +102,16 @@ header nav ul li a{
 
 .main-title {
 	height: auto;
-	float: left;
 }
 .main-title h2 {
 	text-align: left;
-	padding: 5px 0;
+	padding: 0.3125em 0;
 	color: #77a466;
 }
 .main-title p {
 	padding: 0;
-	font-size: 16px;
-	line-height: 25px;
+	font-size: 1em;
+	line-height: 1.5625em;
 }
 
 .section-one,
@@ -102,12 +119,11 @@ header nav ul li a{
 .section-three {
 	width: 33%;
 	height: auto;
-	float: left;
 	border-top: 1px solid #eee;
 }
 
 .section-one h3 {
-	padding: 10px 0;
+	padding: 0.625em 0;
 }
 
 .section-two {
@@ -117,7 +133,7 @@ header nav ul li a{
 
 .section-two h3,
 .section-three h3 {
-	padding: 10px 30px;
+	padding: 0.625em 1.875em;
 }
 
 .menu {
@@ -125,32 +141,34 @@ header nav ul li a{
 	padding: 0;
 }
 .menu li {
-	padding: 10px 0;
+	padding: 0.625em 0;
 	color:#77a466;
 }
 
 .reviews {
 	color: #333;
-	font-size: 16px;
-	line-height: 21px;
+	font-size: 1em;
+	line-height: 1.5em;
 }
 
 .address {
-	font-size: 16px;
-	line-height: 24px;
+	font-size: 1em;
+	line-height: 1.5em;
 }
 
 /*The widths are in a percentage!*/
 footer {
-	height: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	border-top: 3px solid #eee;
 	margin: 0 auto;
-	clear: both;
 	text-align: center;
 }
 footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
 	color: #77a466;
-	font-size: 14px;
+	font-size: 0.875em;
 }
