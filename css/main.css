@@ -204,4 +204,30 @@ footer span {
 
 @media all and (min-width:1200px) {
 	/* Desktop styles here */
+
+	header {
+		flex-direction: row;
+		padding: 3em 0 1em 0;
+	}
+
+	header h1 {
+		width: 60%;
+		border-bottom: none;
+		text-align: left;
+	}
+
+	header nav ul {
+		flex-direction: row;
+		align-items: baseline;
+		width: 40%;
+	}
+
+	.section-one, .section-two, .section-three {
+		border-bottom: 1px solid #eee;
+	}
+
+	footer {
+		border-top: none;
+	}
+
 }
